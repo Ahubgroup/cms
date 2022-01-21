@@ -1,0 +1,169 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+  font-family: "Apple Chancery", cursive;
+}
+
+  .hrsidenav {
+    height:100%;
+    width: 200px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 70px;
+    position: fixed;
+    background-color: cornsilk;
+    border-right: 2px solid blanchedalmond;
+
+  }
+  
+  .hrsidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: dodgerblue;
+    display: block;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  
+  }
+  
+  .hrsidenav a:hover {
+    color: whitesmoke;
+    background-color: #007bff !important;
+    border-radius: 5px;
+    text-decoration: none;
+  
+  }
+  .hrsidenav a.active{
+    color: cornsilk;
+    border-radius: 5px;
+    background-color: dodgerblue;
+  }
+  .content{
+    height: 100%;
+    padding: 5px;
+    margin: 70px 5px 5px 205px;
+    border: 2px solid cornsilk;
+    border-radius: 5px;
+  }
+
+
+
+.bug-header{
+  padding: 5px;
+  font-size: 24px;
+
+}
+
+.topdata-container{
+  display: grid;
+  grid-gap: 36px;
+  grid-template-columns: auto auto auto auto;
+  color: cornsilk;
+}
+.container{
+  display: grid;
+  grid-gap: 36px;
+  grid-template-columns: auto auto auto;
+  color: cornsilk;
+}
+
+.topdata{
+  text-align: center;
+  border-radius: 12px;
+  padding: 24px 12px;
+  background-color: #33ccff;
+  border: 2px solid dodgerblue;
+}
+.topdata:hover{
+  color: dodgerblue;
+  background-color: cornsilk;
+}
+/*-------------------- middlepage style------------------------- */
+.middlepage{
+  width: 100%;
+  color: dodgerblue;
+  padding: 12px;
+  background-color: cornsilk;
+  border-radius: 8px;
+  border: 2px solid burlywood;
+}
+
+.middlepage button{
+  padding: 5px 16px;
+  color: cornsilk;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  border: none;
+}
+.middlepage input[type=search]{
+  width: 20%;
+  padding: 8px;
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.middlepage input[type=search]:focus{
+  width: 100%;
+  padding: 8px;
+  border: dodgerblue;
+  
+}
+
+#open_bugform, #open_formfr{
+  display: none;
+  width: 100%;
+  padding: 12px;
+  color: cornsilk;
+  background-color: burlywood;
+  border-radius: 8px;
+}
+#close{
+  font-size:24px
+}
+.right{
+  left: 95%;
+}
+
+#open_bugform input,#open_formfr input, textarea{
+  width: 100%;
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+
+}
+.tablestyle{
+  border-radius: 12px;
+  border: 2px solid burlywood;
+}
+
+table{
+  width: 100%;
+  
+}
+.round-left{
+  border-radius: 8px 0 0 8px;
+}
+.round-right{
+  border-radius: 0 8px 8px 0;
+}
+
+table th{
+  font-size: 18px;
+  height: 48px;
+  text-align: center;
+  width: 14.28%;
+  color: dodgerblue;
+  background-color: cornsilk;
+  
+}
+  
+table tr td{
+  height: 48px;
+  text-align: center;
+  width: 14.28%;
+}

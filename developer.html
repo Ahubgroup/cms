@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer</title>
+
+    <link rel="stylesheet" href="developer.css">
+    <!------------------------- Font Awesome(Icon)----------------------------->
+    <link href="..//fontawesome/css/all.css" rel="stylesheet">
+    <script defer src="..//fontawesome/js/all.js"></script>
+
+    <!-----------------------Bootstrap------------------------------------------>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <!-- <a class="navbar-brand h1" href="#"> <img src="..//images/logo 3.PNG" width="30" height="30"></a> -->
+                <a class="navbar-brand h1" href="#">Developer</a>
+            </li>
+
+        </ul>
+    </nav>
+    <div>
+        <div class="hrsidenav">
+            <a class="tablink" onclick="openpage(event,'dashboard')" id="defaultOpen"><i class="fab fa-dashcube"></i> Dashboard</a>
+            <a class="tablink" onclick="openpage(event,'Upload')"><i class="fas fa-plus"></i> Upload</a>
+            <a class="tablink" onclick="openpage(event,'Bug')"><i class="fas fa-bug"></i> Bug </a>
+            <a class="tablink" onclick="openpage(event,'FR')"><i class="fas fa-plus"></i> FR</a>
+            <a href="#"><i class="fas fa-video"></i> Meet</a>
+            <a class="tablink" onclick="openpage(event,'Task')"><i class="fas fa-tasks "></i> Task</a>
+            <a class="tablink" onclick="openpage(event,'Company')"><i class="fas fa-database "></i> Company</a>
+            <a class="tablink" onclick="openpage(event,'Upcoming')"><i class="fas fa-project-diagram"></i> Latest Release</a>
+        </div>
+
+        <div class="content">
+            <div id="dashboard" class="tabcontent">
+
+                <h3 class="bug-header">Upload File</h3>
+                <hr>
+                <div class="topdata-container">
+                    <div class="topdata">
+                        <h6>Document</h6>
+                        <br>
+                        <h4>120</h4>
+
+                    </div>
+                    <div class="topdata">
+                        <h6>Excel</h6>
+                        <br>
+                        <h4>42</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6> PDF</h6>
+                        <br>
+                        <h4>6</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6>Important</h6>
+                        <br>
+                        <h4>120</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="middlepage">
+                    <div>
+                        <label for="Add">Add File :</label>
+                        <button> <i class="fas fa-plus"></i> Upload</button>
+                        <br><br>
+                    </div>
+                    <div>
+                        <Label>Search :</Label><br>
+                        <input type="search" placeholder="Search File">
+                    </div>
+                </div>
+
+                <hr>
+                <div class="tablestyle">
+                    <table>
+                        <tr>
+                            <th class="round-left"> S.No.</th>
+                            <th> Name</th>
+                            <th> File Related</th>
+                            <th>Permission </th>
+                            <th>Created On</th>
+                            <th> Shared By</th>
+                            <th class="round-right">Uploaded By</th>
+                        </tr>
+    
+                        <tr>
+                            <td>1</td>
+                            <td>High</td>
+                            <td>Test1</td>
+                            <td>Demo</td>
+                            <td>Progress</td>
+                            <td>12/08/21</td>
+                            <td>Test1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Medium</td>
+                            <td>test2</td>
+                            <td>Closed</td>
+                            <td>Invalid</td>
+                            <td>24/12/21</td>
+                            <td>Test2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="Upload" class="tabcontent">
+
+                <h3 class="bug-header">Upload File</h3>
+                <hr>
+                <div class="topdata-container">
+                    <div class="topdata">
+                        <h6>Document</h6>
+                        <br>
+                        <h4>120</h4>
+
+                    </div>
+                    <div class="topdata">
+                        <h6>Excel</h6>
+                        <br>
+                        <h4>42</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6> PDF</h6>
+                        <br>
+                        <h4>6</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6>Important</h6>
+                        <br>
+                        <h4>120</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="middlepage">
+                    <div>
+                        <label for="Add">Add File :</label>
+                        <button> <i class="fas fa-plus"></i> Upload</button>
+                        <br><br>
+                    </div>
+                    <div>
+                        <Label>Search :</Label><br>
+                        <input type="search" placeholder="Search File">
+                    </div>
+                </div>
+
+                <hr>
+                <div class="tablestyle">
+                    <table>
+                        <tr>
+                            <th class="round-left"> S.No.</th>
+                            <th> Name</th>
+                            <th> File Related</th>
+                            <th>Permission </th>
+                            <th>Created On</th>
+                            <th> Shared By</th>
+                            <th class="round-right">Uploaded By</th>
+                        </tr>
+    
+                        <tr>
+                            <td>1</td>
+                            <td>High</td>
+                            <td>Test1</td>
+                            <td>Demo</td>
+                            <td>Progress</td>
+                            <td>12/08/21</td>
+                            <td>Test1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Medium</td>
+                            <td>test2</td>
+                            <td>Closed</td>
+                            <td>Invalid</td>
+                            <td>24/12/21</td>
+                            <td>Test2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- ---------Bug ------------------------------------------------- -->
+            <div id="Bug" class="tabcontent">
+                <h3 class="bug-header">Bug</h3>
+                <hr>
+                <div class="topdata-container">
+                    <div class="topdata">
+                        <h6>Open Bug</h6>
+                        <br>
+                        <h4>202</h4>
+
+                    </div>
+                    <div class="topdata">
+                        <h6>Closed Bug</h6>
+                        <br>
+                        <h4>1042</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6> Due this week</h6>
+                        <br>
+                        <h4>6</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6>Invalid</h6>
+                        <br>
+                        <h4>120</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="middlepage">
+                    <div>
+                        <label for="Add">Create Bug :</label>
+                        <button onclick="open_form()" id="btn"> <i class="fas fa-plus"></i> Bug</button>
+                        <br><br>
+                    </div>
+                    <div id="open_bugform">
+                        <form action="" method="post">
+                            <span><i id="close">&#10006;</i></span>
+                            <hr>
+                            <label for="ID">Bug Id</label>
+                            <input type="hidden" name="">
+                            <br>
+                            <label for="Module">Module :</label>
+
+                            <input type="text" name="module" id="">
+                            <br><br>
+                            <label for="sub_module">Sub_Module :</label>
+
+                            <input type="sub_module">
+                            <br><br>
+                            <label for="date">Date :</label>
+
+                            <input type="datetime-local" name="" id="">
+                            <br><br>
+                            <label for="description">Description :</label>
+
+                            <textarea name="" id="" cols="30" rows="20"></textarea>
+                            <br><br>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div>
+                        <br>
+                        <Label>Search :</Label><br>
+                        <input type="search" placeholder="Search Bug">
+                    </div>
+                </div>
+
+                <hr>
+                <div class="tablestyle">
+                    <table>
+                        <tr>
+                            <th class="round-left"> Bug Id</th>
+                            <th> Priority</th>
+                            <th> Module</th>
+                            <th> Status</th>
+                            <th> Created On</th>
+                            <th> Due Date</th>
+                            <th class="round-right"> Reporter</th>
+                        </tr>
+    
+                        <tr>
+                            <td>1</td>
+                            <td>High</td>
+                            <td>Test1</td>
+                            <td>Demo</td>
+                            <td>Progress</td>
+                            <td>12/08/21</td>
+                            <td>Test1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Medium</td>
+                            <td>test2</td>
+                            <td>Closed</td>
+                            <td>Invalid</td>
+                            <td>24/12/21</td>
+                            <td>Test2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- Feature Request-------------------------------------------------------- -->
+            <div id="FR" class="tabcontent">
+                <h3 class="bug-header">Feature Request</h3>
+                <hr>
+                <div class="topdata-container">
+                    <div class="topdata">
+                        <h6>Open FR</h6>
+                        <br>
+                        <h4>32</h4>
+
+                    </div>
+                    <div class="topdata">
+                        <h6>Closed FR</h6>
+                        <br>
+                        <h4>34</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6> Due this week</h6>
+                        <br>
+                        <h4>4</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6>Invalid</h6>
+                        <br>
+                        <h4>5</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="middlepage">
+                    <div>
+                        <label for="Add">Create FR :</label>
+                        <button onclick="open_formfr()"> <i class="fas fa-plus"></i> FR</button>
+                        <br><br>
+                    </div>
+                    <div id="open_formfr">
+                        <form action="" method="post">
+                            <i id="close">&#935;</i>
+                            <hr>
+                            <label for="ID">FR Id</label>
+                            <input type="hidden" name="">
+                            <br>
+                            <label for="Module">Module :</label>
+
+                            <input type="text" name="module" id="">
+                            <br><br>
+                            <label for="sub_module">Sub_Module :</label>
+
+                            <input type="sub_module">
+                            <br><br>
+                            <label for="date">Date :</label>
+
+                            <input type="datetime-local" name="" id="">
+                            <br><br>
+                            <label for="description">Description :</label>
+
+                            <textarea name="" id="" cols="30" rows="20"></textarea>
+                            <br><br>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div>
+                        <br>
+                        <Label>Search :</Label><br>
+                        <input type="search" placeholder="Search FR..">
+                    </div>
+                </div>
+                <hr>
+            <div class="tablestyle">
+                <table>
+                    <tr>
+                        <th class="round-left"> FR Id</th>
+                        <th> Priority</th>
+                        <th> Module</th>
+                        <th> Status</th>
+                        <th> Created On</th>
+                        <th> Due Date</th>
+                        <th class="round-right"> Reporter</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>High</td>
+                        <td>Test1</td>
+                        <td>Demo</td>
+                        <td>Progress</td>
+                        <td>12/08/21</td>
+                        <td>Test1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Medium</td>
+                        <td>test2</td>
+                        <td>Closed</td>
+                        <td>Invalid</td>
+                        <td>24/12/21</td>
+                        <td>Test2</td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+            <!-------------------- Task ----------------------------------------------------- -->
+            <div id="Task" class="tabcontent">
+                <h3 class="bug-header">Task</h3>
+                <hr>
+                <div class="container">
+                    <div class="topdata">
+                        <h6>Scheduled Task</h6>
+                        <br>
+                        <h4>32</h4>
+
+                    </div>
+                    <div class="topdata">
+                        <h6>Today Task</h6>
+                        <br>
+                        <h4>4</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6>Completed</h6>
+                        <br>
+                        <h4>34</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="middlepage">
+                    <div>
+                        <label for="Add">Add Task :</label>
+                        <button onclick="open_formfr()"> <i class="fas fa-plus"></i> Task</button>
+                        <br><br>
+                    </div>
+                    <div>
+                        <br>
+                        <Label>Search :</Label><br>
+                        <input type="search" placeholder="Search Task..">
+                    </div>
+                </div>
+                <br>
+                <div class="tablestyle">
+                    <table>
+                        <tr>
+                            <th class="round-left"> Task No.</th>
+                            <th> Priority</th>
+                            <th> Module</th>
+                            <th> Schedule</th>
+                            <th> Status</th>
+                            <th> Created On</th>
+                            <th class="round-right"> Created By</th>
+                        </tr>
+    
+                        <tr>
+                            <td>1</td>
+                            <td>High</td>
+                            <td>Test1</td>
+                            <td>Demo</td>
+                            <td>Progress</td>
+                            <td>12/08/21</td>
+                            <td>Test1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Medium</td>
+                            <td>test2</td>
+                            <td>Closed</td>
+                            <td>Invalid</td>
+                            <td>24/12/21</td>
+                            <td>Test2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!------------------ Company-------------------------------------- -->
+            <div id="Company" class="tabcontent">
+                <h3 class="bug-header">Company Data</h3>
+                <hr>
+                <div class="container">
+                    <div class="topdata">
+                        <h6>Total Company</h6>
+                        <br>
+                        <h4>1278</h4>
+
+                    </div>
+                    <div class="topdata">
+                        <h6>Upcoming</h6>
+                        <br>
+                        <h4>40</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6>Live</h6>
+                        <br>
+                        <h4>1238</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="tablestyle">
+                    <table>
+                        <tr>
+                            <th class="round-left"> Company Id</th>
+                            <th> Priority</th>
+                            <th> Type</th>
+                            <th> Status</th>
+                            <th> Added On</th>
+                            <th> Due Date</th>
+                            <th class="round-right"> Sales</th>
+                        </tr>
+    
+                        <tr>
+                            <td>1</td>
+                            <td>High</td>
+                            <td>Test1</td>
+                            <td>Demo</td>
+                            <td>Progress</td>
+                            <td>12/08/21</td>
+                            <td>Test1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Medium</td>
+                            <td>test2</td>
+                            <td>Closed</td>
+                            <td>Invalid</td>
+                            <td>24/12/21</td>
+                            <td>Test2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!--------------------- Upcoming --------------------------------------->
+            <div id="Upcoming" class="tabcontent">
+                <h3 class="bug-header">Upcoming </h3>
+                <hr>
+                <div class="container">
+                    <div class="topdata">
+                        <h6>Projects</h6>
+                        <br>
+                        <h4>1278</h4>
+
+                    </div>
+                    <div class="topdata">
+                        <h6>Brands</h6>
+                        <br>
+                        <h4>40</h4>
+                    </div>
+                    <div class="topdata">
+                        <h6>Test</h6>
+                        <br>
+                        <h4>40</h4>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ------------End------------------------------------------ -->
+        </div>
+    </div>
+
+    <script src="developer.js"></script>
+
+    <!---------------------bootstrap javascript, jquery and Popper link-------------------- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
